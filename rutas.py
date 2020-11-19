@@ -5,8 +5,7 @@ matriz=[]
 def encontrar_ruta(C):
     global res
     global SIZE
-    global matriz
-    SIZE=len()
+    SIZE=len(C)
     res=[[0]*SIZE for _ in range(SIZE)]
     r=len(C)
     c=len(C[0])
